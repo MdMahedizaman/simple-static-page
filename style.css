@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding-left: 40px;
+  margin-top: 40px;
+}
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 100%;
+  border-left: 3px solid tomato;
+  padding: 10px;
+  line-height: 3rem;
+}
+h1 span{
+  color: tomato;
+}
+.paragraph{
+  margin: 20px 0px;
+  
+}
+button{
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.scroll{
+  font-size: bold;
+}
+.content{
+    width: 50%;
+    float: left;
+  
+}
+.image{
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+.image img{
+  height: 250px;
+  width: 200px;
+}
+#container{
+  display: flex;
+  flex-direction: row;
+}
